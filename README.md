@@ -1,12 +1,8 @@
 <div align="center">
 
-<h2><code>abiodun@github ~ $ ./contributions.sh</code></h2>
-
 <img src="./assets/output/contrib-heatmap.svg" width="880">
 
 <br><br>
-
-<h2><code>abiodun@github ~ $ whoami</code></h2>
 
 <table>
 <tr>
