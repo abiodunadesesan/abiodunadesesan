@@ -30,31 +30,33 @@ viewBox="0 0 {width} {height}">
 <rect width="100%" height="100%" fill="{BACKGROUND}"/>
 """)
 
-svg.append("<defs>")
-
-for i, line in enumerate(lines):
-    w = max(len(line) * CHAR_WIDTH, 1)
-
-    svg.append(f"""
-<clipPath id="clip{i}">
-<rect
-x="20"
-y="{20 + i*LINE_HEIGHT - FONT_SIZE}"
-width="0"
-height="{LINE_HEIGHT}">
+svg.append("""
+<g>
 <animate
-attributeName="width"
-from="0"
-to="{w}"
-begin="{i*0.05}s"
-dur="0.45s"
-fill="remove"
+attributeName="opacity"
+values="0;1;1;0"
+keyTimes="0;0.15;0.85;1"
+dur="5s"
 repeatCount="indefinite"/>
-</rect>
-</clipPath>
 """)
 
-svg.append("</defs>")
+for i, line in enumerate(lines):
+
+    y = 20 + FONT_SIZE + i * LINE_HEIGHT
+
+    svg.append(f"""
+<text
+x="20"
+y="{y}"
+font-family="Menlo, Monaco, Consolas, monospace"
+font-size="{FONT_SIZE}"
+fill="{TEXT_COLOR}"
+xml:space="preserve">
+{escape(line)}
+</text>
+""")
+
+svg.append("</g>")
 
 for i, line in enumerate(lines):
 
