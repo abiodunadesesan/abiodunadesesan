@@ -8,7 +8,6 @@ OUTPUT = ROOT / "assets/output/avi-ascii.svg"
 
 FONT_SIZE = 8
 LINE_HEIGHT = 10
-CHAR_WIDTH = 5
 
 TEXT_COLOR = "#d0d7de"
 BACKGROUND = "#0d1117"
@@ -17,12 +16,13 @@ lines = INPUT.read_text().splitlines()
 
 max_chars = max(len(line) for line in lines)
 
-width = max_chars * CHAR_WIDTH + 40
+width = max_chars * 5 + 40
 height = len(lines) * LINE_HEIGHT + 40
 
 svg = []
 
-svg.append(f"""<svg xmlns="http://www.w3.org/2000/svg"
+svg.append(f"""
+<svg xmlns="http://www.w3.org/2000/svg"
 width="{width}"
 height="{height}"
 viewBox="0 0 {width} {height}">
@@ -30,30 +30,23 @@ viewBox="0 0 {width} {height}">
 <rect width="100%" height="100%" fill="{BACKGROUND}"/>
 """)
 
-svg.append("<defs>")
-
-for i, line in enumerate(lines):
-    w = max(len(line) * CHAR_WIDTH, 1)
-
-    svg.append(f"""
-<clipPath id="clip{i}">
-<rect
-x="20"
-y="{20 + i*LINE_HEIGHT - FONT_SIZE}"
-width="0"
-height="{LINE_HEIGHT}">
-<animate
-attributeName="width"
-values="0;{w};{w};0"
-keyTimes="0;0.25;0.85;1"
-dur="5s"
-begin="{i*0.05}s"
-repeatCount="indefinite"/>
-</rect>
-</clipPath>
+svg.append("""
+<style>
+.ascii {
+animation: show 5s infinite;
+}
+@keyframes show {
+0% { opacity:0; }
+15% { opacity:1; }
+85% { opacity:1; }
+100% { opacity:0; }
+}
+</style>
 """)
 
-svg.append("</defs>")
+svg.append("""
+<g class="ascii">
+""")
 
 for i, line in enumerate(lines):
 
@@ -61,7 +54,6 @@ for i, line in enumerate(lines):
 
     svg.append(f"""
 <text
-clip-path="url(#clip{i})"
 x="20"
 y="{y}"
 font-family="Menlo, Monaco, Consolas, monospace"
@@ -72,7 +64,10 @@ xml:space="preserve">
 </text>
 """)
 
-svg.append("</svg>")
+svg.append("""
+</g>
+</svg>
+""")
 
 OUTPUT.write_text("".join(svg))
 
