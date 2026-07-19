@@ -1,131 +1,63 @@
 <div align="center">
 
-# Hi, I'm Abiodun Caleb Adesesan 👋
+<img src="./assets/output/contrib-heatmap.svg" width="880">
 
-### Software Engineer
-
-Building modern web applications and exploring Artificial Intelligence & Machine Learning.
-
-<br>
+<br><br>
 
 <table>
 <tr>
-<td align="center">
 
-<img src="./assets/output/avi-ascii.svg" width="340" alt="ASCII Portrait">
+<td valign="top">
+
+<img src="./assets/output/avi-ascii.svg" width="360">
+
+</td>
+
+<td valign="top">
+
+<img src="./assets/output/info-card.svg" width="520">
 
 </td>
 
-<td align="center">
-
-<img src="./assets/output/info-card.svg" width="520" alt="Info Card">
-
-</td>
 </tr>
 </table>
-
-<br>
-
-<img src="./assets/output/contrib-heatmap.svg" width="900" alt="Contribution Heatmap">
 
 </div>
 
 ---
 
-# About Me
+## About Me
 
-I'm a Software Engineer passionate about building products that solve real-world problems.
+I'm a Software Engineer who enjoys building modern web applications and learning new technologies.
 
-Currently focused on:
+I'm currently focused on:
 
-- Full-stack Web Development
+- Full-stack web development
 - Artificial Intelligence & Machine Learning
-- Open Source
-- Backend Engineering
+- Open-source projects
+- Building tools that solve real-world problems
 
-Outside coding, I enjoy football, continuous learning, and building useful software.
+Outside of coding, I'm passionate about continuous learning, football, and creating software that makes a positive impact.
+---
+
+## Tech Stack
+
+```text
+Frontend    React • Next.js • TypeScript • Tailwind CSS
+
+Backend     Node.js • Express
+
+Database    PostgreSQL • Supabase • Firebase
+
+Tools       Git • Docker • Cursor • VS Code • Vercel
+```
 
 ---
 
-# Tech Stack
+<div align="center">
 
-### Frontend
+[Portfolio](https://calebsilvanus.vercel.app) •
+[LinkedIn](https://www.linkedin.com/in/abioduncaleb) •
+<abiodunadesesan@gmail.com>
 
-- React
-- Next.js
-- TypeScript
-- Tailwind CSS
-- Framer Motion
-
-### Backend
-
-- Node.js
-- Express.js
-
-### Database
-
-- PostgreSQL
-- Supabase
-- Firebase
-
-### Tools
-
-- Git
-- Docker
-- Vercel
-- VS Code
-- Cursor
-
-### Learning
-
-- Python
-- Machine Learning
-- AI Engineering
-
----
-
-# Featured Projects
-
-### 🚀 Portfolio Website
-
-Modern responsive portfolio built with Next.js.
-
-### 🖥 Terminal GitHub Profile
-
-Custom SVG-based GitHub profile powered by Python automation.
-
-### 🤖 AI & Machine Learning
-
-Projects documenting my AI learning journey.
-
----
-
-# Connect
-
-<p align="center">
-
-<a href="https://calebsilvanus.vercel.app">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white">
-</a>
-
-<a href="https://www.linkedin.com/in/abioduncaleb">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-<a href="mailto:abiodunadesesan@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
-</p>
-
----
-
-# GitHub Stats
-
-<p align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=abiodunadesesan&show_icons=true&theme=github_dark">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=abiodunadesesan&layout=compact&theme=github_dark">
-
-</p>
+</div>
