@@ -17,7 +17,7 @@ from="0"
 to="600"
 begin="0.0s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -34,7 +34,7 @@ from="0"
 to="600"
 begin="0.05s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -51,7 +51,7 @@ from="0"
 to="600"
 begin="0.1s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -68,7 +68,7 @@ from="0"
 to="600"
 begin="0.15000000000000002s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -85,7 +85,7 @@ from="0"
 to="600"
 begin="0.2s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -102,7 +102,7 @@ from="0"
 to="600"
 begin="0.25s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -119,7 +119,7 @@ from="0"
 to="600"
 begin="0.30000000000000004s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -136,7 +136,7 @@ from="0"
 to="600"
 begin="0.35000000000000003s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -153,7 +153,7 @@ from="0"
 to="600"
 begin="0.4s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -170,7 +170,7 @@ from="0"
 to="600"
 begin="0.45s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -187,7 +187,7 @@ from="0"
 to="600"
 begin="0.5s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -204,7 +204,7 @@ from="0"
 to="600"
 begin="0.55s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -221,7 +221,7 @@ from="0"
 to="600"
 begin="0.6000000000000001s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -238,7 +238,7 @@ from="0"
 to="600"
 begin="0.65s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -255,7 +255,7 @@ from="0"
 to="600"
 begin="0.7000000000000001s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -272,7 +272,7 @@ from="0"
 to="600"
 begin="0.75s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -289,7 +289,7 @@ from="0"
 to="600"
 begin="0.8s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -306,7 +306,7 @@ from="0"
 to="600"
 begin="0.8500000000000001s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -323,7 +323,7 @@ from="0"
 to="600"
 begin="0.9s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -340,7 +340,7 @@ from="0"
 to="600"
 begin="0.9500000000000001s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -357,7 +357,7 @@ from="0"
 to="600"
 begin="1.0s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -374,7 +374,7 @@ from="0"
 to="600"
 begin="1.05s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -391,7 +391,7 @@ from="0"
 to="600"
 begin="1.1s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -408,7 +408,7 @@ from="0"
 to="600"
 begin="1.1500000000000001s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -425,7 +425,7 @@ from="0"
 to="600"
 begin="1.2000000000000002s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -442,7 +442,7 @@ from="0"
 to="600"
 begin="1.25s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -459,7 +459,7 @@ from="0"
 to="600"
 begin="1.3s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -476,7 +476,7 @@ from="0"
 to="600"
 begin="1.35s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -493,7 +493,7 @@ from="0"
 to="600"
 begin="1.4000000000000001s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -510,7 +510,7 @@ from="0"
 to="600"
 begin="1.4500000000000002s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -527,7 +527,7 @@ from="0"
 to="600"
 begin="1.5s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -544,7 +544,7 @@ from="0"
 to="600"
 begin="1.55s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -561,7 +561,7 @@ from="0"
 to="600"
 begin="1.6s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -578,7 +578,7 @@ from="0"
 to="600"
 begin="1.6500000000000001s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -595,7 +595,7 @@ from="0"
 to="600"
 begin="1.7000000000000002s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -612,7 +612,7 @@ from="0"
 to="600"
 begin="1.75s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -629,7 +629,7 @@ from="0"
 to="600"
 begin="1.8s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -646,7 +646,7 @@ from="0"
 to="600"
 begin="1.85s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -663,7 +663,7 @@ from="0"
 to="600"
 begin="1.9000000000000001s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -680,7 +680,7 @@ from="0"
 to="600"
 begin="1.9500000000000002s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -697,7 +697,7 @@ from="0"
 to="600"
 begin="2.0s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -714,7 +714,7 @@ from="0"
 to="600"
 begin="2.0500000000000003s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -731,7 +731,7 @@ from="0"
 to="600"
 begin="2.1s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -748,7 +748,7 @@ from="0"
 to="600"
 begin="2.15s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -765,7 +765,7 @@ from="0"
 to="600"
 begin="2.2s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -782,7 +782,7 @@ from="0"
 to="600"
 begin="2.25s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -799,7 +799,7 @@ from="0"
 to="600"
 begin="2.3000000000000003s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -816,7 +816,7 @@ from="0"
 to="600"
 begin="2.35s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -833,7 +833,7 @@ from="0"
 to="600"
 begin="2.4000000000000004s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -850,7 +850,7 @@ from="0"
 to="600"
 begin="2.45s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -867,7 +867,7 @@ from="0"
 to="600"
 begin="2.5s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -884,7 +884,7 @@ from="0"
 to="600"
 begin="2.5500000000000003s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -901,7 +901,7 @@ from="0"
 to="600"
 begin="2.6s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -918,7 +918,7 @@ from="0"
 to="600"
 begin="2.6500000000000004s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -935,7 +935,7 @@ from="0"
 to="600"
 begin="2.7s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -952,7 +952,7 @@ from="0"
 to="600"
 begin="2.75s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -969,7 +969,7 @@ from="0"
 to="600"
 begin="2.8000000000000003s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -986,7 +986,7 @@ from="0"
 to="600"
 begin="2.85s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -1003,7 +1003,7 @@ from="0"
 to="600"
 begin="2.9000000000000004s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -1020,7 +1020,7 @@ from="0"
 to="600"
 begin="2.95s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -1037,7 +1037,7 @@ from="0"
 to="600"
 begin="3.0s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -1054,7 +1054,7 @@ from="0"
 to="600"
 begin="3.0500000000000003s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -1071,7 +1071,7 @@ from="0"
 to="600"
 begin="3.1s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -1088,7 +1088,7 @@ from="0"
 to="600"
 begin="3.1500000000000004s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -1105,7 +1105,7 @@ from="0"
 to="600"
 begin="3.2s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
@@ -1122,7 +1122,7 @@ from="0"
 to="600"
 begin="3.25s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>

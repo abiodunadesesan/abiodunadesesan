@@ -48,7 +48,7 @@ from="0"
 to="{w}"
 begin="{i*0.05}s"
 dur="0.45s"
-fill="freeze"
+fill="remove"
 repeatCount="indefinite"/>
 </rect>
 </clipPath>
