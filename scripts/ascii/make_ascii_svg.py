@@ -23,47 +23,46 @@ height = len(lines) * LINE_HEIGHT + 40
 svg = []
 
 svg.append(f"""<svg xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink"
 width="{width}"
 height="{height}"
 viewBox="0 0 {width} {height}">
-""")
 
-svg.append(f"""
 <rect width="100%" height="100%" fill="{BACKGROUND}"/>
 """)
 
-svg.append("<defs>")
+svg.append("""
+<defs>
 
-for i, line in enumerate(lines):
-    w = max(len(line) * CHAR_WIDTH, 1)
+<filter id="glow">
+<feGaussianBlur stdDeviation="0.5"/>
+</filter>
 
-    svg.append(f"""
-<clipPath id="clip{i}">
-<rect
-x="20"
-y="{20 + i*LINE_HEIGHT - FONT_SIZE}"
-width="0"
-height="{LINE_HEIGHT}">
-<animate
-attributeName="width"
-from="0"
-to="{w}"
-begin="{i*0.05}s"
-dur="0.45s"
-fill="freeze"/>
-</rect>
-</clipPath>
+</defs>
 """)
 
-svg.append("</defs>")
+# Create multiple frames
+for frame in range(3):
 
-for i, line in enumerate(lines):
-
-    y = 20 + FONT_SIZE + i * LINE_HEIGHT
+    delay = frame * 1.5
 
     svg.append(f"""
+<g opacity="0">
+<animate
+attributeName="opacity"
+values="0;1;1;0"
+keyTimes="0;0.05;0.95;1"
+dur="4.5s"
+begin="{delay}s"
+repeatCount="indefinite"/>
+""")
+
+    for i, line in enumerate(lines):
+
+        y = 20 + FONT_SIZE + i * LINE_HEIGHT
+
+        svg.append(f"""
 <text
-clip-path="url(#clip{i})"
 x="20"
 y="{y}"
 font-family="Menlo, Monaco, Consolas, monospace"
@@ -73,6 +72,8 @@ xml:space="preserve">
 {escape(line)}
 </text>
 """)
+
+    svg.append("</g>")
 
 svg.append("</svg>")
 
