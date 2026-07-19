@@ -1,21 +1,16 @@
-from pathlib import Path
 import json
+from pathlib import Path
+
 import requests
 from bs4 import BeautifulSoup
 
 USERNAME = "abiodunadesesan"
 
-ROOT = Path(__file__).resolve().parents[2]
-OUTPUT = ROOT / "data" / "contributions.json"
-
 url = f"https://github.com/users/{USERNAME}/contributions"
 
 response = requests.get(
     url,
-    headers={
-        "User-Agent": "Mozilla/5.0"
-    },
-    timeout=30
+    headers={"User-Agent": "Mozilla/5.0"}
 )
 
 response.raise_for_status()
@@ -24,23 +19,20 @@ soup = BeautifulSoup(response.text, "html.parser")
 
 days = []
 
-for rect in soup.select("td.ContributionCalendar-day"):
+for td in soup.select("td.ContributionCalendar-day"):
+    date = td.get("data-date")
 
-    date = rect.get("data-date")
-    count = int(rect.get("data-level", 0))
-    contributions = int(rect.get("data-count", 0))
+    if not date:
+        continue
 
     days.append({
         "date": date,
-        "level": count,
-        "count": contributions
+        "level": int(td.get("data-level", 0))
     })
 
-OUTPUT.parent.mkdir(exist_ok=True)
+Path("data").mkdir(exist_ok=True)
 
-OUTPUT.write_text(
-    json.dumps(days, indent=2)
-)
+with open("data/contributions.json", "w") as f:
+    json.dump(days, f, indent=2)
 
-print(f"Saved {len(days)} days")
-print(f"Output -> {OUTPUT}")
+print(f"Saved {len(days)} days.")

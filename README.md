@@ -1,30 +1,28 @@
 <div align="center">
 
-# Hi, I'm Abiodun Caleb Adesesan 
+<h2><code>abiodun@github ~ $ ./contributions.sh</code></h2>
 
-Software Engineer
-
-Building modern web applications and exploring Artificial Intelligence & Machine Learning.
-
-<br>
-
-<img src="./assets/output/contrib-heatmap.svg" width="900" alt="GitHub Contribution Heatmap">
+<img src="./assets/output/contrib-heatmap.svg" width="880">
 
 <br><br>
 
+<h2><code>abiodun@github ~ $ whoami</code></h2>
+
 <table>
 <tr>
+
 <td valign="top">
 
-<img src="./assets/output/avi-ascii.svg" width="360" alt="ASCII Portrait">
+<img src="./assets/output/avi-ascii.svg" width="360">
 
 </td>
 
 <td valign="top">
 
-<img src="./assets/output/info-card.svg" width="520" alt="Info Card">
+<img src="./assets/output/info-card.svg" width="520">
 
 </td>
+
 </tr>
 </table>
 
@@ -34,39 +32,34 @@ Building modern web applications and exploring Artificial Intelligence & Machine
 
 ## About Me
 
-* 💻 Software Engineer
-* 🌍 Nigerian based in Turkey
-* 🚀 Building full-stack applications
-* 🤖 Currently learning Artificial Intellignce & Machine Learning
-* ✝ Christian
+```text
+Name        : Abiodun Caleb Adesesan
+Role        : Software Engineer
+Location    : Nigeria 🇳🇬
+Currently   : AI • Machine Learning • Full Stack
+Faith       : Christian
+```
 
 ---
 
 ## Tech Stack
 
-* Frontend: React, Next.js, TypeScript, Tailwind CSS, Motion Framer
-* Backend: Node.js, Express
-* Database: PostgreSQL, Supabase,Firebase
-* Tools: Git, Docker, VS Code, Cursor, Vercel
-* Authentication:JWT,Clerk 
+```text
+Frontend    React • Next.js • TypeScript • Tailwind CSS
+
+Backend     Node.js • Express
+
+Database    PostgreSQL • Supabase • Firebase
+
+Tools       Git • Docker • Cursor • VS Code • Vercel
+```
 
 ---
 
-## Connect
+<div align="center">
 
-<p align="center">
+[Portfolio](https://calebsilvanus.vercel.app) •
+[LinkedIn](https://www.linkedin.com/in/abioduncaleb) •
+<abiodunadesesan@gmail.com>
 
-<a href="https://calebsilvanus.vercel.app">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white">
-</a>
-
-<a href="https://www.linkedin.com/in/abioduncaleb">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-<a href="mailto:abiodunadesesan@gmail.com">
-<img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
-</p>
-
+</div>
