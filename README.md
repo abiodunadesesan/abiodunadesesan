@@ -4,7 +4,7 @@
 
 Software Engineer
 
-Building modern web applications and exploring Machine Learning.
+Building modern web applications and exploring Artificial Intelligence & Machine Learning.
 
 <br>
 
