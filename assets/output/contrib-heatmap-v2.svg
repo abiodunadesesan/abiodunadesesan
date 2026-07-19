@@ -1,0 +1,32 @@
+<svg
+xmlns="http://www.w3.org/2000/svg"
+width="754"
+height="176"
+viewBox="0 0 754 176">
+
+<style>
+
+svg {
+    background:#0d1117;
+}
+
+text {
+    fill:#8b949e;
+    font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:11px;
+}
+
+rect {
+    rx:2.5;
+}
+
+</style>
+
+<rect
+x="0"
+y="0"
+width="754"
+height="176"
+fill="#0d1117"/>
+
+</svg>
