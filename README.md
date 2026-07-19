@@ -32,14 +32,16 @@
 
 ## About Me
 
-```text
-Name        : Abiodun Caleb Adesesan
-Role        : Software Engineer
-Location    : Nigeria 🇳🇬
-Currently   : AI • Machine Learning • Full Stack
-Faith       : Christian
-```
+I'm a Software Engineer who enjoys building modern web applications and learning new technologies.
 
+I'm currently focused on:
+
+- Full-stack web development
+- Artificial Intelligence & Machine Learning
+- Open-source projects
+- Building tools that solve real-world problems
+
+Outside of coding, I'm passionate about continuous learning, football, and creating software that makes a positive impact.
 ---
 
 ## Tech Stack
